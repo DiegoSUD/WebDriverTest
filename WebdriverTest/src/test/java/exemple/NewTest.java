@@ -19,14 +19,14 @@ public class NewTest {
   }
   @BeforeTest
   public void beforeTest() {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\diego.barroso\\eclipse-workspace\\WebdriverTest\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\diego.barroso\\Selenium git\\WebdriverTest\\chromedriver.exe");
 	  driver = new ChromeDriver();
   }
 
   @AfterTest
   public void afterTest() {
 	  driver.quit();
-	  System.out.println("consegui");
+	 
   }
 
 }
